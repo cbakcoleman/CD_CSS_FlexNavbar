@@ -5,11 +5,10 @@
     background-color: rgb(51,51,51);
     display: flex;
     align-items: baseline;
-    /* justify-items: flex-end; */
+    justify-content: space-around;
 }
 .nav-title{
-    /* text-align: left; */
-    justify-items: flex-start;
+    justify-self: flex-start;
     font-size: 25px;
     color: whitesmoke ;
     margin: 20px;
@@ -17,18 +16,15 @@
 .nav-links{
     background-color: transparent;
     list-style: none;
-    /* justify-items: flex-end; */
     color: gray;
     display: flex;
 }
 a{
     margin: 5px;
     padding: 10px;
-    /* text-align: left; */
     color:darkgrey; 
     background-color: transparent;
     list-style: none;
-    justify-items: flex-end;
     text-decoration: none;
 }
 .btn{
